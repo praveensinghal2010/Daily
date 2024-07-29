@@ -12,9 +12,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PrintingTest {
 
-	public void hellojava() throws MalformedURLException
+	public void hellojava() 
 	{
-		WebDriver driver=null;
+		WebDriver driver =null;
+		try {
+			
+		
+		 driver=null;
 		ChromeOptions options= new ChromeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
@@ -30,7 +34,22 @@ public class PrintingTest {
 //		driver= new ChromeDriver();
 //		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
-		driver.close();
+		driver.quit();
+		}
+		catch(MalformedURLException e)
+		{
+			System.err.print("hello java");
+		}
+		catch(Exception e)
+		{
+			System.err.print("bello");
+		}finally {
+			if(driver !=null)
+			{
+				driver.quit();
+			}
+		}
+		
 	}
 	
 }
