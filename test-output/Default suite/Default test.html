@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 29 19:06:21 IST 2024</td>
+<td>Started on:</td><td>Mon Jul 29 19:20:39 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4646 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4350 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -82,13 +82,13 @@ Host info: host: &apos;DESKTOP-5FMQ87A&apos;, ip: &apos;192.168.29.115&apos;
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, headless], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, headless], extensions: []}}
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:234)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at temp1.PrintingTest.hellojava(PrintingTest.java:22)
+	at temp1.PrintingTest.hellojava(PrintingTest.java:25)
 	at stepdefinitions.Printingstepdefinition.that_it_is_a_scenario(Printingstepdefinition.java:12)
 	at ✽.that it is a scenario(file:///C:/Users/praveen/git/Daily1/src/test/java/demo.feature:6)
 Caused by: java.io.UncheckedIOException: java.net.ConnectException
@@ -106,7 +106,7 @@ Caused by: java.io.UncheckedIOException: java.net.ConnectException
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:234)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at temp1.PrintingTest.hellojava(PrintingTest.java:22)
+	at temp1.PrintingTest.hellojava(PrintingTest.java:25)
 	at stepdefinitions.Printingstepdefinition.that_it_is_a_scenario(Printingstepdefinition.java:12)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -174,19 +174,19 @@ Caused by: java.nio.channels.ClosedChannelException
 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace555136651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace555136651'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+</pre></div><a href='#' onClick='toggleBox("stack-trace193864812", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace193864812'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DESKTOP-5FMQ87A&apos;, ip: &apos;192.168.29.115&apos;
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, headless], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage, headless], extensions: []}}
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:234)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at temp1.PrintingTest.hellojava(PrintingTest.java:22)
+	at temp1.PrintingTest.hellojava(PrintingTest.java:25)
 	at stepdefinitions.Printingstepdefinition.that_it_is_a_scenario(Printingstepdefinition.java:12)
 	at ✽.that it is a scenario(file:///C:/Users/praveen/git/Daily1/src/test/java/demo.feature:6)
 Caused by: java.io.UncheckedIOException: java.net.ConnectException
@@ -204,7 +204,7 @@ Caused by: java.io.UncheckedIOException: java.net.ConnectException
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:234)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
-	at temp1.PrintingTest.hellojava(PrintingTest.java:22)
+	at temp1.PrintingTest.hellojava(PrintingTest.java:25)
 	at stepdefinitions.Printingstepdefinition.that_it_is_a_scenario(Printingstepdefinition.java:12)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -273,7 +273,7 @@ Caused by: java.nio.channels.ClosedChannelException
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 more
 </pre></div></td>
-<td>2</td>
+<td>1</td>
 <td>temp1.TestNGRunnerTest@77f1baf5</td></tr>
 </table><p>
 </body>

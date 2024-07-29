@@ -16,6 +16,9 @@ public class PrintingTest {
 	{
 		WebDriver driver=null;
 		ChromeOptions options= new ChromeOptions();
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("headless");
 		
 		URL abc= new URL("http://localhost:4444/wd/hub");
 		
