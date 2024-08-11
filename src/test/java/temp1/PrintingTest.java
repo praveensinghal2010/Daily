@@ -19,12 +19,13 @@ public class PrintingTest {
 			
 		
 		 driver=null;
-		ChromeOptions options= new ChromeOptions();
+		//ChromeOptions options= new ChromeOptions();
+			EdgeOptions options = new EdgeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("headless");
+		//options.addArguments("headless");
 		
-		URL abc= new URL("http://13.233.174.118:4444/wd/hub");
+		URL abc= new URL("http://3.108.254.152:4444/wd/hub");
 		
 		driver= new RemoteWebDriver(abc,options);
 		
