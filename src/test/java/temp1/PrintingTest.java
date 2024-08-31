@@ -35,6 +35,24 @@ public class PrintingTest {
 //		driver= new ChromeDriver();
 //		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
+		driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
+			driver.get("https://www.bseindia.com/");
 		driver.quit();
 		}
 		catch(MalformedURLException e)
