@@ -25,7 +25,7 @@ public class PrintingTest {
 		options.addArguments("--disable-dev-shm-usage");
 		//options.addArguments("headless");
 		
-		URL abc= new URL("http://15.206.194.71:4444/wd/hub");
+		URL abc= new URL("http://65.0.81.45:4444/wd/hub");
 		
 		driver= new RemoteWebDriver(abc,options);
 		
