@@ -29,28 +29,43 @@ public class PrintingTest {
 		
 		driver= new RemoteWebDriver(abc,options);
 		
-//		System.out.print("my code is  running");	
-//		
+		System.out.print("my code is  running");	
+		
 //		WebDriverManager.chromedriver().setup();
 //		driver= new ChromeDriver();
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		driver.get("https://www.bseindia.com/");
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(5000);
 			driver.get("https://www.bseindia.com/");
+			Thread.sleep(15000);
 			driver.get("https://www.bseindia.com/");
 			driver.get("https://www.bseindia.com/");
 		driver.quit();
